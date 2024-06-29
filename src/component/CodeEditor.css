@@ -24,6 +24,7 @@
   font-size: large;
   border-radius: 8px;
   width: fit-content;
+  text-decoration: none;
 }
 
 .theme-dropdown {

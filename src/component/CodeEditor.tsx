@@ -24,7 +24,7 @@ const CodeEditor: React.FC = () => {
       <div className="editor-title">
         <h1>tealfeed - code editor</h1>
 
-        <p className="socials">Github</p>
+        <a className="socials" href="https://github.com/vinod95990/teal-code-editor" target="_blank">Github</a>
 
         <select className="theme-dropdown" onChange={(e) => setTheme(themes[e.target.value as keyof typeof themes])}
         >
